@@ -1,10 +1,10 @@
 {
   "name": "publish-gh-pages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "publish website to github pages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "node ./node_modules/standard-version/bin/cli.js"
   },
   "bin": {
     "gh-pages": "bin/gh-pages.js"
@@ -24,6 +24,12 @@
   "bugs": {
     "url": "https://github.com/poychang/publish-gh-pages/issues"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-extra": "^7.0.0",
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "standard-version": "^4.4.0"
+  }
 }

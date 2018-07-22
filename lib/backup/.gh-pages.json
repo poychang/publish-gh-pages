@@ -1,0 +1,9 @@
+{
+    "projectName": "demo-web-app",
+    "organizationName": "poychang",
+    "buildCommand": "ng build --base-href /demo-web-app/",
+    "distRoot": "./dist",
+    "distFolder": "DemoWebApp",
+    "branch": "gh-pages",
+    "commit": "Update demonstration web app" 
+}
