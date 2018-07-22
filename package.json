@@ -1,0 +1,29 @@
+{
+  "name": "publish-gh-pages",
+  "version": "0.0.1",
+  "description": "publish website to github pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gh-pages": "bin/gh-pages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poychang/publish-gh-pages.git"
+  },
+  "keywords": [
+    "github",
+    "pages",
+    "gh-pages"
+  ],
+  "author": "Poy Chang",
+  "homepage": "https://github.com/poychang/publish-gh-pages#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poychang/publish-gh-pages/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
